@@ -1,0 +1,85 @@
+body {
+  /* Styling for the body */
+  background-image: url(./Background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.button-container a {
+  text-decoration: none;
+}
+
+.SubscribeButton {
+  /* Styling for the Subscribe button */
+  background-color: rgb(200, 0, 0);
+  border-radius: 2px;
+  color: white;
+  border: none;
+  height: 35px;
+  width: 150px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.SubscribeButton:hover {
+  opacity: 0.6;
+}
+
+.SubscribeButton:active {
+  opacity: 0.4;
+}
+
+.DownloadButton {
+  /* Styling for the Download button */
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 1px solid rgb(95, 95, 95);
+  color: rgb(95, 95, 95);
+  height: 35px;
+  width: 150px;
+  cursor: pointer;
+  transition: background-color 1s ease-in-out, color 0.3s ease-in-out;
+}
+
+.DownloadButton:hover {
+  /* Styling for the Download button on hover */
+  background-color: rgb(95, 95, 95);
+  color: white;
+  border: none;
+}
+
+.JoinButton {
+  /* Styling for the Join button */
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(41, 118, 211);
+  border-radius: 5px;
+  border-width: 1px;
+  color: rgb(41, 118, 211);
+  height: 50px;
+  width: 62px;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.JoinButton:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+  border: none;
+}

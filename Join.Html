@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display HTML Code</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 100px;
+      background-color: #8d8a8a;
+    }
+
+    .code-container {
+      background-color: #1e1e1e;
+      color: #d4d4d4;
+      padding: 20px;
+      border-radius: 8px;
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+      line-height: 1.5;
+      overflow-x: auto;
+      margin: 20px 0;
+    }
+
+    .code-container pre {
+      margin: 0;
+      white-space: pre-wrap;
+    }
+
+    /* Syntax highlighting colors */
+    .tag {
+      color: #569cd6;
+    }
+
+    .attribute {
+      color: #92c5f8;
+    }
+
+    .string {
+      color: #ce9178;
+    }
+
+    .comment {
+      color: #6a9955;
+    }
+
+    .doctype {
+      color: #808080;
+    }
+
+    h1 {
+      color: #333;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>HTML Code Display</h1>
+
+  <div class="code-container">
+    <pre><code><span class="doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="tag">&lt;html</span> <span class="attribute">lang</span>=<span class="string">"en"</span><span class="tag">&gt;</span>
+<span class="tag">&lt;head&gt;</span>
+  <span class="tag">&lt;meta</span> <span class="attribute">charset</span>=<span class="string">"UTF-8"</span><span class="tag">&gt;</span>
+  <span class="tag">&lt;meta</span> <span class="attribute">name</span>=<span class="string">"viewport"</span> <span class="attribute">content</span>=<span class="string">"width=device-width, initial-scale=1.0"</span><span class="tag">&gt;</span>
+  <span class="tag">&lt;title&gt;</span>HTML &AMP; CSS FULL COURSE<span class="tag">&lt;/title&gt;</span>
+  <span class="tag">&lt;style&gt;</span>
+    body {
+      <span class="comment">/* Styling for the body */</span>
+      background-image: url(./Background.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      min-height: 100vh;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      color: #ffffff;
+      text-align: center;
+      padding: 10px;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .button-container a {
+      text-decoration: none;
+    }
+    .SubscribeButton {
+      <span class="comment">/* Styling for the Subscribe button */</span>
+      background-color: rgb(200, 0, 0);
+      border-radius: 2px;
+      color: white;
+      border: none;
+      height: 35px;
+      width: 150px;
+      cursor: pointer;
+      transition: opacity 0.25s ease-in-out;
+    }
+    .SubscribeButton:hover {
+      opacity: 0.6;
+    }
+    .SubscribeButton:active {
+      opacity: 0.4;
+    }
+    .DownloadButton {
+      <span class="comment">/* Styling for the Download button */</span>
+      background-color: rgb(255, 255, 255);
+      border-radius: 5px;
+      border: 1px solid rgb(95, 95, 95);
+      color: rgb(95, 95, 95);
+      height: 35px;
+      width: 150px;
+      cursor: pointer;
+      transition: background-color 1s ease-in-out, color 0.3s ease-in-out;
+    }
+    .DownloadButton:hover {
+      <span class="comment">/* Styling for the Download button on hover */</span>
+      background-color: rgb(95, 95, 95);
+      color: white;
+      border: none;
+    }
+    .JoinButton {
+      <span class="comment">/* Styling for the Join button */</span>
+      background-color: rgb(255, 255, 255);
+      border-color: rgb(41, 118, 211);
+      border-radius: 5px;
+      border-width: 1px;
+      color: rgb(41, 118, 211);
+      height: 35px;
+      width: 62px;
+      cursor: pointer;
+      transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+    }
+    .JoinButton:hover {
+      background-color: rgb(41, 118, 211);
+      color: white;
+      border: none;
+    }
+    .TweetButton {
+      background-color: rgb(29, 155, 240);
+      border: none;
+      border-radius: 18px;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      height: 36px;
+      width: 74px;
+      cursor: pointer;
+      transition: background-color 0.25s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    .TweetButton:hover {
+      background-color: rgb(26, 145, 218);
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    }
+  <span class="tag">&lt;/style&gt;</span>
+<span class="tag">&lt;/head&gt;</span>
+<span class="tag">&lt;body&gt;</span>
+  <span class="tag">&lt;h1&gt;</span>HTML CSS FULL COURSE<span class="tag">&lt;/h1&gt;</span>
+  <span class="tag">&lt;p&gt;</span>Learn HTML and CSS from scratch with this comprehensive course.<span class="tag">&lt;/p&gt;</span>
+  <span class="tag">&lt;div</span> <span class="attribute">class</span>=<span class="string">"button-container"</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;a</span> <span class="attribute">href</span>=<span class="string">"https://www.youtube.com/@SuperSimpleDev"</span> <span class="attribute">target</span>=<span class="string">"_blank"</span><span class="tag">&gt;</span>
+      <span class="tag">&lt;button</span> <span class="attribute">class</span>=<span class="string">"SubscribeButton"</span><span class="tag">&gt;</span>
+        SuperSimpleDev
+      <span class="tag">&lt;/button&gt;</span>
+    <span class="tag">&lt;/a&gt;</span>
+    <span class="tag">&lt;a</span> <span class="attribute">href</span>=<span class="string">"https://code.visualstudio.com/download"</span> <span class="attribute">target</span>=<span class="string">"_blank"</span><span class="tag">&gt;</span>
+      <span class="tag">&lt;button</span> <span class="attribute">class</span>=<span class="string">"DownloadButton"</span><span class="tag">&gt;</span>Download Visual Studio<span class="tag">&lt;/button&gt;</span>
+    <span class="tag">&lt;/a&gt;</span>
+   
+    <span class="tag">&lt;button</span> <span class="attribute">class</span>=<span class="string">"JoinButton"</span><span class="tag">&gt;</span>
+      JOIN
+    <span class="tag">&lt;/button&gt;</span>
+    <span class="tag">&lt;button</span> <span class="attribute">class</span>=<span class="string">"TweetButton"</span><span class="tag">&gt;</span>
+      Tweet
+    <span class="tag">&lt;/button&gt;</span>
+  <span class="tag">&lt;/div&gt;</span>
+<span class="tag">&lt;/body&gt;</span>
+<span class="tag">&lt;/html&gt;</span></code></pre>
+  </div>
+  <p>Copy and paste this code into your HTML file to see the buttons in action.</p>
